@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <font size="5">
+    <h1>Assignment 3</h1>
+    <form action="" method="get">
+        <div>
+            <label for="fname"> <b>First Name:-</b> </label>
+            <input type="text" name="firstname" id="fname" required="required" >
+            <label for="lname"> <b> Last Name:-</b></label>
+            <input type="text" name="lastname" id="lname" required="required" >
+        </div>
+        <hr>
+        <div>
+            <p> <b> I Love:-</b></p>
+            <input type="radio" name="ilove" value="chicken" id="chicken">
+            <label for="chicken">Eating Chickens</label>
+            <br>
+            <br>
+            <input type="radio" name="ilove" value="travelling" id="travelling">
+            <label for="travelling">Travelling</label>
+            <br>
+            <br>
+            <input type="radio" name="ilove" value="developing" id="developing">
+            <label for="developing">Developing</label>
+        </div>
+        <hr>
+        <div>
+            <input type="checkbox" name="accessories" value="laptop" id="laptop">
+            <label for="laptop">I have a Laptop</label>
+            <br>
+            <input type="checkbox" name="accessories" value="phone" id="phone">
+            <label for="phone">I have a Mobile Phone</label>
+            <br>
+            <input type="checkbox" name="accessories" value="desktop" id="desktop">
+            <label for="desktop">I have a Desktop</label>
+        </div>
+        <hr>
+        <div>
+            <label for="email"> <b> Email:-</b></label>
+            <input type="email" name="email" id="email" >
+            <label for="password"> <b> Password:-</b></label>
+            <input type="password" name="password" id="password" minlength="5" >
+        </div>
+        <hr>
+        <div>
+            <label for="age"> <b> Tell us your age:-</b></label>
+            <select name="age" id="age" >
+                <option value="none" selected="selected">Select Age</option>
+                <option value="0-17">0-17</option>
+                <option value="18-30">18-30</option>
+                <option value="31-50">31-50</option>
+                <option value="51-70">51-70</option>
+            </select>
+        </div>
+        <hr>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>
